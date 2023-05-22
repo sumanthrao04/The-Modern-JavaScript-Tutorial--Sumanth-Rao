@@ -13,3 +13,18 @@ If you'll recall from our discussion about Storing Values with the Assignment Op
 Assume we have defined a function sum which adds two numbers together.
 ourSum = sum(5, 12);
 Calling the sum function with the arguments of 5 and 12 produces a return value of 17. This return value is assigned to the ourSum variable
+
+JavaScript Array Methods
+-----------------------------------------------------------------------
+Array length
+Array toString()
+Array pop()
+Array push()
+Array shift()
+Array unshift()
+Array join()
+Array delete()
+Array concat()
+Array flat()
+Array splice()
+Array slice()
