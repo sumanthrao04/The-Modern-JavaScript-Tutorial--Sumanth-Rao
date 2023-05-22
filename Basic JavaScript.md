@@ -37,3 +37,26 @@ Examples
 3 ===  3  // true
 3 === '3' // false
 In the second example, 3 is a Number type and '3' is a String type.
+
+
+Comparison with the Inequality Operator
+-----------------------------------------------------
+The inequality operator (!=) is the opposite of the equality operator. It means not equal and returns false where equality would return true and vice versa. Like the equality operator, the inequality operator will convert data types of values while comparing.
+
+Examples
+
+1 !=  2    // true
+1 != "1"   // false
+1 != '1'   // false
+1 != true  // false
+0 != false // false
+
+Comparison with the Strict Inequality Operator
+---------------------------------------------------------------------------
+The strict inequality operator (!==) is the logical opposite of the strict equality operator. It means "Strictly Not Equal" and returns false where strict equality would return true and vice versa. The strict inequality operator will not convert data types.
+
+Examples
+
+3 !==  3  // false
+3 !== '3' // true
+4 !==  3  // true
